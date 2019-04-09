@@ -19,7 +19,7 @@ cd ./osgi-classes/target/classes
 find . -type f -name "*.class" | cpio -pdv $PLUGIN_DIR/org.eclipse.osgi_3.9.1.v20130814-1242 \;
 echo Modifying the OSGI environment Done
 
-echo You can run the normal ws02server.sh with -Dwso2.osgi.class.loader.intro.name=xx option now.
+echo You can run the normal wso2server.sh with -Dwso2.osgi.class.loader.intro.name=xx option now.
 
 fi
 
